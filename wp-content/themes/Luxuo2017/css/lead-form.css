@@ -1,0 +1,55 @@
+.the-content .leads-form {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: inline-block;
+  border-top: 1px solid #a4832b;
+  border-bottom: 1px solid #a4832b;
+  padding-top: 10px;
+  padding-bottom: 17px; }
+  .the-content .leads-form .leads-box-head {
+    padding-left: 0px;
+    padding-right: 0px; }
+    .the-content .leads-form .leads-box-head p {
+      font-size: 13px;
+      text-align: justify;
+      line-height: 20px;
+      margin-bottom: 5px !important; }
+  .the-content .leads-form .leads-box-left {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 7px; }
+  .the-content .leads-form .leads-box-right {
+    padding-right: 0px; }
+  .the-content .leads-form span.wpcf7-not-valid-tip {
+    padding: 4px 5px;
+    font-size: 13px; }
+  .the-content .leads-form .form-group {
+    margin-bottom: 5px; }
+    .the-content .leads-form .form-group label {
+      font-size: 12px;
+      margin-bottom: 0px; }
+    .the-content .leads-form .form-group .form-control {
+      height: 30px;
+      padding: 4px 5px;
+      font-size: 12px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      border-radius: 0px;
+      -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75); }
+    .the-content .leads-form .form-group textarea {
+      min-height: 65px;
+      resize: none; }
+  .the-content .leads-form .wpcf7-submit {
+    background-color: #ce961c;
+    border: 1px solid #ce961c;
+    padding: 7px 20px;
+    color: #fff;
+    margin-top: 10px; }
+
+.the-content div.wpcf7-response-output {
+  border: 2px solid #a4832b;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 7px; }

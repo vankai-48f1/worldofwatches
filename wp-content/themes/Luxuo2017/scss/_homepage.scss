@@ -1,0 +1,59 @@
+.home-edpicks {
+  max-width: 980px; // following ad unit
+  margin: 0 auto;
+}
+
+.editors-picks-container {
+  margin: 0 auto;
+
+
+  .home-edpicks-post {
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    max-width: 65%;
+      
+    @media screen and (max-width:1024px){
+        text-align: center;
+    }      
+
+    @include breakpoint($screen-sm-max) {
+      max-width: 660px; // so container doesn't exceed thumbnail width
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .white-overlay {
+      left: 0;
+
+      @include breakpoint(max-width $screen-sm-max) {
+        height: 80px;
+      }
+    }
+
+    .summary {
+      margin: 0;
+      max-width: none;
+
+      h3 {
+        height: auto;
+      }
+    }
+  }
+
+  .home-edpicks-post,
+  .zone-mpu {
+    margin-bottom: 25px;
+
+    @include breakpoint($screen-md-min) {
+      @include with-layout(3 0.1) {
+        @include gallery(1);
+        max-width: 300px;
+        height: 250px;
+      }
+    }
+  }
+}

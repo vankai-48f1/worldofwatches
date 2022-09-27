@@ -42,6 +42,8 @@
     <meta name="msapplication-TileImage" content="https://worldofwatches.vn/wp-content/themes/Luxuo2017/images/favicons/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/js/axxx.js" async="true"></script>
+    
     <?php wp_head(); ?>
     <script type="text/javascript" class="teads" src="//a.teads.tv/page/114077/tag" async="true"></script>
 
@@ -54,11 +56,15 @@
     
       gtag('config', 'UA-132337945-1');
     </script>
-
     
-
+    <script>
+        window._wp_rp_wp_ajax_url = "<?php echo admin_url("admin-ajax.php")?>";
+    </script>
     <?php //get_template_part('ad-zones/gpt'); ?>
 </head>
+
+<!-- Url wp admin ajax -->
+<input type="hidden" name="luxuo_wp_admin_ajax" value="<?php echo admin_url("admin-ajax.php")?>">
 
 <body <?php body_class(); ?>>
 <!-- Google Tag Manager Old-->
